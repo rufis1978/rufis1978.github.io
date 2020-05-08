@@ -1,0 +1,100 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Games</title>
+    <link href="favicon.ico" rel="icon" type="image/x-icon">
+</head>
+<body>
+  <style>
+      body {
+          background-color: rgb(8, 8, 8);
+          margin: 0;
+          font-size: 10pt;
+          font-family: tahoma, monospace;
+          position: relative;
+          text-align: center;
+          color: white;
+          display: flex;
+          flex-wrap: wrap;
+          flex-flow: row wrap;
+          align-items: center;
+          justify-content: center;
+          margin: 5px;
+        }
+p {
+  display: block;
+}
+      img {
+        width:350px;
+        height: 197px;
+        display: block;
+        margin-left: 10px;
+      }
+      .block {
+      color: "red"
+      font-size: 12pt;
+      display: block;
+      }
+  </style>
+
+
+<script>
+var gamesList = [];
+function readTextFile(file, callback) {
+    var rawFile = new XMLHttpRequest();
+    rawFile.overrideMimeType("application/json");
+    rawFile.open("GET", file, true);
+    rawFile.onreadystatechange = function() {
+        if (rawFile.readyState === 4 && rawFile.status == "200") {
+            callback(rawFile.responseText);
+        }
+    }
+    rawFile.send(null);
+}
+
+function printTable(text) {
+  var res = JSON.parse(text);
+  for (let [key, value] of Object.entries(res)) {
+    if ((value.categories.indexOf('Prototype')>-1)&&key>100) {
+      console.log(key,value);
+      gamesList.push(value);
+      var tag = document.createElement("a");
+      var text = document.createTextNode(value.title);
+      //tag.setAttribute('href', "http://google.com");
+      //tag.appendChild(text);
+      tag.href = "http://rc-js.skg-sandbox.com/launcherDev.html?userId=autoUserId&wshost=ws://linux-dev.servupdate.com:38082&game="+key+'&quality=high';
+      tag.title = value.title;
+      var elem = document.createElement("img");
+      var url = value.path.substring(0,value.path.length-10);
+      elem.setAttribute("src","http://rc-js.skg-sandbox.com/"+url+ "img/low_res/atlases/introScreenBg.jpg");
+      elem.setAttribute("alt", value.title);
+      elem.href = "http://rc-js.skg-sandbox.com/launcherDev.html?userId=autoUserId&wshost=ws://linux-dev.servupdate.com:38082&game="+key+'&quality=high';
+      var d = document.createElement("P");
+      var t = document.createTextNode(value.title);
+      t.className = "block";
+
+      elem.setAttribute("id",key);
+      elem.appendChild(t);
+      tag.appendChild(elem);
+      d.appendChild(tag);
+      d.appendChild(t);
+      document.body.prepend(d);
+
+      document.getElementById(key).onerror = function() {
+    console.log("Inserting alternate");
+    document.getElementById(key).src = "https://i.ytimg.com/vi/hbL-P5e3BZ8/hqdefault.jpg";
+  }
+
+    }
+  }
+
+}
+
+readTextFile("gamesList.json",printTable);
+
+</script>
+<div id="list">
+</div>
+</body>
+</html>
