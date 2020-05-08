@@ -1,0 +1,1345 @@
+{
+    "1": {
+        "title": "Lucky Lady Charm",
+        "path": "app/luckyLadysCharm.15/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "3": {
+        "title": "Book Of Ra",
+        "path": "app/bookOfRa.6/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "4": {
+        "title": "Columbus",
+        "path": "app/columbus.6/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "5": {
+        "title": "Dolphins Pearl",
+        "path": "app/dolphinsPearl.18/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "7": {
+        "title": "Just Jewels",
+        "path": "app/justJewels.14/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "8": {
+        "title": "Bananas Go Bahamas",
+        "path": "app/bananasGoBahamas.60/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "10": {
+        "title": "Marco Polo",
+        "path": "app/marcoPolo.4/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "11": {
+        "title": "Oliver Bar",
+        "path": "app/oliversBar.12/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "12": {
+        "title": "Pharaohs Gold 2",
+        "path": "app/pharaohsGold2.11/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "13": {
+        "title": "Riches Of India",
+        "path": "app/richesOfIndia.14/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "14": {
+        "title": "Diamond Trio",
+        "path": "app/diamondTrio.2/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "16": {
+        "title": "Illusionist",
+        "path": "app/illusionist.2/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "17": {
+        "title": "The Money Game",
+        "path": "app/theMoneyGame.15/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "21": {
+        "title": "Queen Of Hearts",
+        "path": "app/queenOfHearts.8/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "24": {
+        "title": "Treasure Jewels",
+        "path": "app/treasureJewels.21/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "25": {
+        "title": "Attila",
+        "path": "app/attila.4/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "26": {
+        "title": "Gryphon's Gold",
+        "path": "app/gryphonsGold.6/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line",
+            "Prototype"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "27": {
+        "title": "Sizzling Hot",
+        "path": "app/sizzlingHot.17/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "28": {
+        "title": "Pharaoh's Gold 2 Deluxe",
+        "path": "app/pharaohsGold2Deluxe.11/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "29": {
+        "title": "Dolphin's Pearl Deluxe",
+        "path": "app/dolphinsPearlDeluxe.7/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "30": {
+        "title": "Lucky Lady Charm Deluxe",
+        "path": "app/luckyLadysCharmDeluxe.9/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "31": {
+        "title": "Book Of Ra deluxe",
+        "path": "app/bookOfRaDeluxe.2/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "32": {
+        "title": "Queen Of Hearts Deluxe",
+        "path": "app/queenOfHeartsDeluxe.5/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "44": {
+        "title": "Xtra Hot",
+        "path": "app/xtraHot.10/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "47": {
+        "title": "Fruits For All",
+        "path": "app/fruitsForAll.5/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "49": {
+        "title": "Crazy Monkey",
+        "path": "app/crazyMonkey/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Igrosoft"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "52": {
+        "title": "Lord Of the Ocean",
+        "path": "app/lordOfTheOcean.2/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "57": {
+        "title": "Sizzling Hot Deluxe",
+        "path": "app/sizzlingHotDeluxe.10/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "64": {
+        "title": "Lucky Bugs",
+        "path": "app/luckyBugs.11/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "78": {
+        "title": "Chip Runner",
+        "path": "app/chipRunner.19/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "79": {
+        "title": "Ultra Hot Deluxe",
+        "path": "app/ultraHotDeluxe.20/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "80": {
+        "title": "Always Hot",
+        "path": "app/alwaysHot.20/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "84": {
+        "title": "Flamenco Roses",
+        "path": "app/flamencoRoses.10/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "86": {
+        "title": "Secret Elixir",
+        "path": "app/secretElixir.11/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "90": {
+        "title": "Hot Chance",
+        "path": "app/hotChance.21/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "91": {
+        "title": "Spinning Reels",
+        "path": "app/spinningReels.16/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "92": {
+        "title": "Always Hot Deluxe",
+        "path": "app/alwaysHotDeluxe.15/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "93": {
+        "title": "Tiki Island",
+        "path": "app/tikiIsland.14/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Multi Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "94": {
+        "title": "Lions",
+        "path": "app/lions.12/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Multi Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "100": {
+        "title": "Fruit Sensation",
+        "path": "app/fruitSensation.3/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "101": {
+        "title": "Plenty On Twenty Hot",
+        "path": "app/plentyOnTwentyHot.11/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Multi Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "102": {
+        "title": "Magic 81",
+        "path": "app/magic81.5/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Multi Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "103": {
+        "title": "Northern Light",
+        "path": "app/northernLight.23/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Multi Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "112": {
+        "title": "Fruits On Fire Deluxe",
+        "path": "app/fruitsOnFireDeluxe.7/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "114": {
+        "title": "Five To One",
+        "path": "app/fiveToOne.6/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "115": {
+        "title": "Columbus Deluxe",
+        "path": "app/columbusDeluxe.7/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "121": {
+        "title": "Disco Fruits",
+        "path": "app/discoFruits.18/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Fruit slots",
+            "ICE 2017"
+        ],
+        "vendors": ["NETGAME"]
+    },
+    "122": {
+        "title": "Bananas",
+        "path": "app/bananas.52/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Multi Line",
+            "ICE 2017"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "130": {
+        "title": "Space Rocks",
+        "path": "app/spaceRocks.2/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Multi Line",
+            "ICE 2017"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "139": {
+        "title": "Book Of Ra Deluxe 6",
+        "path": "app/bookOfRaDeluxe6.2/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "140": {
+        "title": "Pharaoh's Ring",
+        "path": "app/pharaohsRing.19/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "146": {
+        "title": "Golden Fruits",
+        "path": "app/goldenFruits.25/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Fruit slots",
+            "ICE 2017"
+        ],
+        "vendors": ["NETGAME"]
+    },
+    "150": {
+        "title": "Fruit Illusion",
+        "path": "app/fruitIllusion/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Fruit slots",
+            "ICE 2017"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "151": {
+        "title": "Sizzling 6",
+        "path": "app/sizzling6.13/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "152": {
+        "title": "Sizzling Gold",
+        "path": "app/sizzlingGold.4/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "154": {
+        "title": "Pharaohs Tomb",
+        "path": "app/pharaohsTomb.15/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "171": {
+        "title": "The Shining Princess",
+        "path": "app/theShiningPrincess.13/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Multi Line",
+            "China 2017"
+        ],
+        "vendors": ["NETGAME"]
+    },
+    "172": {
+        "title": "Mask Of The Dragon",
+        "path": "app/maskOfTheDragon/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "China 2017",
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "174": {
+        "title": "Cash Spin",
+        "path": "app/cashSpin.52/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NETGAME"]
+    },
+    "176": {
+        "title": "Chili Pepper",
+        "path": "app/chiliPepper.109/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Prototype"
+        ],
+        "vendors": ["NETGAME"]
+    },
+    "177": {
+        "title": "Mega Joker",
+        "path": "app/megaJoker.9/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "178": {
+        "title": "Roaring Forties",
+        "path": "app/roaringForties.7/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "179": {
+        "title": "Just Jewels Deluxe",
+        "path": "app/justJewelsDeluxe.17/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "180": {
+        "title": "Fruit Fall",
+        "path": "app/fruitFall.30/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "181": {
+        "title": "Ultra Sevens",
+        "path": "app/ultraSevens.13/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "182": {
+        "title": "Serengeti Heat",
+        "path": "app/serengetiHeat.14/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "183": {
+        "title": "Reel King",
+        "path": "app/reelKing.14/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "184": {
+        "title": "Spinning Stars",
+        "path": "app/spinningStars.18/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "185": {
+        "title": "Supra Hot",
+        "path": "app/supraHot.14/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "186": {
+        "title": "River Queen",
+        "path": "app/riverQueen.17/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "187": {
+        "title": "Magic 27",
+        "path": "app/magic27.10/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "188": {
+        "title": "Gryphon's Gold Deluxe",
+        "path": "app/gryphonsGoldDeluxe.9/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "189": {
+        "title": "Five Dragons",
+        "path": "app/fiveDragons.16/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Prototype"
+        ],
+        "vendors": ["NETGAME"]
+    },
+    "190": {
+        "title": "Buffalo",
+        "path": "app/buffalo.89/index.html",
+        "launch": true,
+        "state": "dev",
+        "categories": [
+            "Prototype"
+        ],
+        "vendors": ["NETGAME"]
+    },
+    "192": {
+        "title": "Music Island",
+        "path": "app/musicIsland.21/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "194": {
+        "title": "Garden of Riches",
+        "path": "app/gardenOfRiches.14/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "195": {
+        "title": "Changing Fate 40",
+        "path": "app/changingFate40.42/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "197": {
+        "title": "Elven Princess",
+        "path": "app/elvenPrincess.47/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "198": {
+        "title": "Epic Adventure",
+        "path": "app/epicAdventure.13/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "202": {
+        "title": "Winter Queen",
+        "path": "app/winterQueen.42/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "204": {
+        "title": "Sweet Sins",
+        "path": "app/sweetSins.11/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "209": {
+        "title": "Lucky Lady's Charm Deluxe 6",
+        "path": "app/luckyLadysCharmDeluxe6.11/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "210": {
+        "title": "Gold Of Egypt",
+        "path": "app/goldOfEgypt.25/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "216": {
+        "title": "Diamond Shot",
+        "path": "app/diamondShot.19/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Prototype"
+        ],
+        "vendors": ["NETGAME"]
+    },
+    "219": {
+        "title": "Sharky",
+        "path": "app/sharky.24/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "220": {
+        "title": "Faust",
+        "path": "app/faust.7/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "221": {
+        "title": "Arriva",
+        "path": "app/arriva.15/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "222": {
+        "title": "Cold Spell Deluxe",
+        "path": "app/coldSpellDeluxe.43/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "223": {
+        "title": "Silver Fox Deluxe",
+        "path": "app/silverFoxDeluxe.4/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "227": {
+        "title": "Golden Sevens",
+        "path": "app/goldenSevens.40/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "228": {
+        "title": "Gorilla",
+        "path": "app/gorilla/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "229": {
+        "title": "Orca",
+        "path": "app/orca.21/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "230": {
+        "title": "Aztec Power",
+        "path": "app/aztecPower.46/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "235": {
+        "path": "app/jungle2.4/index.html",
+        "title": "Jungle 2",
+        "launch": true,
+        "state": "dev",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NETGAME"]
+    },
+    "238": {
+        "title": "StarNova",
+        "path": "app/starNova.60/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "239": {
+        "title": "Spectrum",
+        "path": "app/spectrum.46/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "240": {
+        "title": "Temple Of Secrets",
+        "path": "app/templeOfSecrets.45/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "241": {
+        "title": "Wolf Reels",
+        "path": "app/wolfReels.21/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NETGAME"]
+    },
+    "242": {
+        "title": "Fruit Tumbling",
+        "path": "app/fruitTumbling.1/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "243": {
+        "title": "Extreme Riches",
+        "path": "app/extremeRiches.45/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "247": {
+        "title": "Vegas Hit",
+        "path": "app/vegasHit.17/index.html",
+        "launch": true,
+        "state": "dev",
+        "categories": [
+            "Prototype"
+        ],
+        "vendors": ["NETGAME"]
+    },
+    "248": {
+        "title": "Magic Tree",
+        "path": "app/magicTree.16/index.html",
+        "launch": true,
+        "state": "dev",
+        "categories": [
+            "Prototype"
+        ],
+        "vendors": ["NETGAME"]
+    },
+    "249": {
+        "title": "Cloverstones",
+        "path": "app/cloverstones.16/index.html",
+        "launch": true,
+        "state": "dev",
+        "categories": [
+            "Prototype"
+        ],
+        "vendors": ["NETGAME"]
+    },
+    "252": {
+        "title": "Book Of Maya",
+        "path": "app/bookOfMaya.3/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "253": {
+        "title": "Book of Ra Magic",
+        "path": "app/bookOfRaMagic.1/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "254": {
+        "title": "African King",
+        "path": "app/africanKing.78/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NETGAME"]
+    },
+    "256": {
+        "title": "Thunder Strike",
+        "path": "app/thunderStrike.3/index.html",
+        "launch": true,
+        "state": "dev",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NETGAME"]
+    },
+    "257": {
+        "title": "Dragon Sevens",
+        "path": "app/dragonSevens.13/index.html",
+        "launch": true,
+        "state": "dev",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NETGAME"]
+    },
+    "258": {
+        "title": "Red Hot Chili 7s",
+        "path": "app/redHotChili7s.15/index.html",
+        "launch": true,
+        "state": "dev",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NETGAME"]
+    },
+    "259": {
+        "title": "Golden Sevens Deluxe",
+        "path": "app/goldenSevensDeluxe.51/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "260": {
+        "title": "Lucky Jolly",
+        "path": "app/luckyJolly.44/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "261": {
+        "title": "Fruits Fury",
+        "path": "app/fruitsFury.12/index.html",
+        "launch": true,
+        "state": "dev",
+        "categories": [
+            "Prototype"
+        ],
+        "vendors": ["NETGAME"]
+    },
+    "262": {
+        "title": "Amazing Stars",
+        "path": "app/amazingStars.1/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "264": {
+        "title": "Asian Fortunes",
+        "path": "app/asianFortunes.5/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "265": {
+        "title": "Dragon Warrior",
+        "path": "app/dragonWarrior.42/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "269": {
+        "title": "Red Hot 20",
+        "path": "app/redHot20.1/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "270": {
+        "title": "Wild At Heart",
+        "path": "app/wildAtHeart.41/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NOVOBET"]
+    },
+    "273": {
+        "title": "Cleos Heart",
+        "path": "app/cleosHeart.17/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NETGAME"]
+    },
+    "277": {
+        "title": "Space Rocks 2",
+        "path": "app/spaceRocks2.3/index.html",
+        "launch": true,
+        "state": "dev",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NETGAME"]
+    },
+    "278": {
+        "title": "MMA Legends",
+        "path": "app/mmaLegends.49/index.html",
+        "launch": true,
+        "state": "dev",
+        "categories": [
+            "Prototype"
+        ],
+        "vendors": ["NETGAME"]
+    },
+    "289": {
+        "title": "Frosty Fruits",
+        "path": "app/frostyFruits.37/index.html",
+        "launch": true,
+        "state": "dev",
+        "categories": [
+            "Prototype"
+        ],
+        "vendors": ["NETGAME"]
+    },
+    "290": {
+        "title": "Volcano Fruits",
+        "path": "app/volcanoFruits.160/index.html",
+        "launch": true,
+        "state": "dev",
+        "categories": [
+            "Prototype"
+        ],
+        "vendors": ["NETGAME"]
+    },
+    "291": {
+        "title": "Dancing Lanterns",
+        "path": "app/dancingLanterns.34/index.html",
+        "launch": true,
+        "state": "dev",
+        "categories": [
+            "Prototype"
+        ],
+        "vendors": ["NETGAME"]
+    },
+    "292": {
+        "title": "Zen Zen Cash",
+        "path": "app/zenZenCash.10/index.html",
+        "launch": true,
+        "state": "dev",
+        "categories": [
+            "Prototype"
+        ],
+        "vendors": ["NETGAME"]
+    },
+    "293": {
+        "title": "Luxor Relics",
+        "path": "app/luxorRelics/index.html",
+        "launch": true,
+        "state": "dev",
+        "categories": [
+            "Classic Line",
+            "Prototype"
+        ],
+        "vendors": ["NETGAME"]
+    },
+    "297": {
+        "title": "Fruit Cash Hold n' Link",
+        "path": "app/fruitCashHoldnLink/index.html",
+        "launch": true,
+        "state": "dev",
+        "categories": [
+            "Classic Line",
+            "Prototype"
+        ],
+        "vendors": ["NETGAME"]
+    },
+    "299": {
+        "title": "Fruit Burst",
+        "path": "app/fruitBurst.52/index.html",
+        "launch": true,
+        "state": "dev",
+        "categories": [
+            "Classic Line",
+            "Prototype"
+        ],
+        "vendors": ["NETGAME"]
+    },
+    "318": {
+        "title": "Royal Fruits 20",
+        "path": "app/royalFruits20.211/index.html",
+        "launch": true,
+        "state": "dev",
+        "categories": [
+            "Prototype"
+        ],
+        "vendors": ["NETGAME"]
+    },
+    "319": {
+        "title": "Royal Fruits 40",
+        "path": "app/royalFruits40.32/index.html",
+        "launch": true,
+        "state": "dev",
+        "categories": [
+            "Prototype"
+        ],
+        "vendors": ["NETGAME"]
+    },
+    "329": {
+        "title": "Bananas10",
+        "path": "app/bananas10.1/index.html",
+        "launch": true,
+        "state": "done",
+        "categories": [
+            "Multi Line",
+            "ICE 2017"
+        ],
+        "vendors": ["NETGAME"]
+    },
+    "340": {
+        "title": "Ra Legends: Double Scatter",
+        "path": "app/raLegendsDoubleScatter.2/index.html",
+        "launch": true,
+        "state": "dev",
+        "categories": [
+            "Classic Line",
+            "Prototype"
+        ],
+        "vendors": ["NETGAME"]
+    },
+     "350": {
+        "title": "Crazy Scientist 2",
+        "path": "app/crazyScientist2.37/index.html",
+        "launch": true,
+        "state": "dev",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NETGAME"]
+    },
+    "352": {
+        "title": "Lotus Fortune",
+        "path": "app/lotusFortune.21/index.html",
+        "launch": true,
+        "state": "dev",
+        "categories": [
+            "Prototype"
+        ],
+        "vendors": ["NETGAME"]
+    }
+}
