@@ -30,7 +30,7 @@ p {
         height: 197px;
         display: block;
         margin-left: 16px;
-        border: 2px #333  solid;
+        border: 2px #222  solid;
         border-radius: 0.25em;
         transition: transform 0.2s, border-radius 0.2s; /* Animation */
         -webkit-transform: scale(1);
@@ -75,7 +75,7 @@ function printTable(text) {
       var text = document.createTextNode(value.title);
       //tag.setAttribute('href', "http://google.com");
       //tag.appendChild(text);
-      tag.href = "http://rc-js.skg-sandbox.com/launcherDev.html?userId=autoUserId&wshost=ws://linux-dev.servupdate.com:38082&game="+key+'&quality=high';
+      tag.href = "http://rc-js.skg-sandbox.com/launcherDev.html?userId=autoUserId&wshost=ws://linux-dev.servupdate.com:38082&game="+key+'&quality=high&commonVersion='+Math.floor(Math.random() * 10000);  ;
       tag.title = value.title;
       var elem = document.createElement("img");
       var url = value.path.substring(0,value.path.length-10);
