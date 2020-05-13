@@ -589,7 +589,7 @@
     },
     "174": {
         "title": "Cash Spin",
-        "path": "app/cashSpin.52/index.html",
+        "path": "app/cashSpin.55/index.html",
         "launch": true,
         "state": "done",
         "categories": [
@@ -1271,7 +1271,7 @@
     },
     "299": {
         "title": "Fruit Burst",
-        "path": "app/fruitBurst.52/index.html",
+        "path": "app/fruitBurst.55/index.html",
         "launch": true,
         "state": "dev",
         "categories": [
@@ -1332,9 +1332,19 @@
         ],
         "vendors": ["NETGAME"]
     },
+    "351": {
+        "title": "Jackpot Sevens",
+        "path": "app/jackpotSevens.6/index.html",
+        "launch": true,
+        "state": "dev",
+        "categories": [
+            "Classic Line"
+        ],
+        "vendors": ["NETGAME"]
+    },
     "352": {
         "title": "Lotus Fortune",
-        "path": "app/lotusFortune.21/index.html",
+        "path": "app/lotusFortune.24/index.html",
         "launch": true,
         "state": "dev",
         "categories": [
