@@ -7,8 +7,115 @@
     <link rel="stylesheet" href="style/main.css">
 
     <title>Settings</title>
+
 </head>
+<style>
+
+.menu_style {
+  width: 39%;
+  height: 100%;
+  top: 0px;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-start;
+  align-items: center;
+  float:left;
+  border: 1px solid green;
+  background-color: #000000;
+  opacity: 0.7;
+}
+
+.menu_item {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: flex-start;
+  padding: 1em;
+}
+
+.menu_icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  height: 100%;
+}
+
+.menu_img {
+  height: 100%;
+  width: auto;
+}
+
+.menu_text {
+  font-size: 2em;
+  font-family: 'Ubuntu';
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  width: 70%;
+  height: 100%;
+  margin-left: 7%;
+}
+
+
+.main {
+  height: 100%;
+  width: 165%;
+  left:35%;
+  position: absolute;
+}
+
+.main.right{
+   animation-duration: 2s;
+   animation-name: toRight;
+   animation-fill-mode: forwards;
+}
+@keyframes toRight {
+  from {left: 35%;}
+  to {left: -65%;}
+}
+
+body {
+  font-family: Arial, sans-serif;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-image: url(https://www.yggdrasilgaming.com/wp-content/uploads/2019/03/background.jpg);
+}
+
+</style>
+
 <body>
+  <div class="main">
+
+  <div class="menu_style" id = "movable">
+    <div class="menu_item" >
+      <div class="menu_icon" >
+        <img class="menu_img" src="https://cdn4.iconfinder.com/data/icons/basic-ui-circle/512/circle-11-512.png" alt="Image">
+      </div>
+      <div class="menu_text">Back </div>
+    </div>
+
+    <div class="menu_item" >
+      <div class="menu_icon">
+        <img class="menu_img" src="https://cdn1.iconfinder.com/data/icons/mobile-device/512/settings-option-configurate-gear-blue-round-512.png" alt="Image">
+      </div>
+      <div class="menu_text">Settings </div>
+    </div>
+
+    <div class="menu_item" >
+      <div class="menu_icon">
+        <img class="menu_img" src="https://cdn1.iconfinder.com/data/icons/mobile-device/512/settings-option-configurate-gear-blue-round-512.png" alt="Image">
+      </div>
+      <div class="menu_text">Help </div>
+    </div>
+
+
+  </div>
 
 <div class="popup-overlay">
     <div class="popup">
@@ -331,6 +438,14 @@
 
     </div>
 </div>
+</div>
+
 <script src="js/main.js"></script>
+<script>
+document.getElementsByClassName('menu_style')[0]
+        .addEventListener('click', function (event) {
+          document.getElementsByClassName('main')[0].classList.add('right');
+        });
+ </script>
 </body>
 </html>
