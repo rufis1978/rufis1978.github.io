@@ -1,0 +1,332 @@
+
+<!DOCTYPE html>
+<html class="no-js">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>Animated Coins</title>
+		<meta name="description" content="Animated coins">
+		<link rel="stylesheet" href="css/main.css">
+
+		<!-- Required dependencies -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.8.8/pixi.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/pixi-particles-latest@3.2.0/dist/pixi-particles.min.js"></script>
+
+		<!-- Example scaffolding -->
+		<script src="ParticleExample.js"></script>
+
+	</head>
+	<body>
+		<div id="framerate"></div>
+		<div id="instructions">Click Anywhere</div>
+		<canvas id="stage" width="1920" height="1080"></canvas>
+		<script>
+
+var images = 				{
+					spritesheet: "images/coin.json",
+					art: [
+						{
+							framerate: 260,
+							loop: true,
+							textures: [
+								"0001.png",
+								"0002.png",
+								"0003.png",
+								"0004.png",
+								"0005.png",
+								"0006.png",
+								"0007.png",
+								"0008.png",
+								"0009.png",
+								"0010.png",
+								"0011.png",
+								"0012.png",
+								"0013.png",
+								"0014.png",
+								"0015.png",
+								"0016.png",
+								"0017.png",
+								"0018.png",
+								"0019.png",
+								"0020.png",
+								"0021.png",
+								"0022.png",
+								"0023.png",
+								"0024.png",
+								"0025.png",
+								"0026.png",
+								"0027.png",
+								"0028.png",
+								"0029.png",
+								"0030.png",
+							]
+						},
+						{
+							framerate: 150,
+							loop: true,
+							textures: [
+								"0030.png",
+								"0029.png",
+								"0028.png",
+								"0027.png",
+								"0026.png",
+								"0025.png",
+								"0024.png",
+								"0023.png",
+								"0022.png",
+								"0021.png",
+								"0020.png",
+								"0019.png",
+								"0018.png",
+								"0017.png",
+								"0016.png",
+								"0015.png",
+								"0014.png",
+								"0013.png",
+								"0012.png",
+								"0011.png",
+								"0010.png",
+								"0009.png",
+								"0008.png",
+								"0007.png",
+								"0006.png",
+								"0005.png",
+								"0004.png",
+								"0003.png",
+								"0002.png",
+								"0001.png",
+							]
+						}
+					]
+				},
+
+			images1 = 				{
+									spritesheet: "images/coin1.json",
+									art: [
+										{
+											framerate: 60,
+											loop: true,
+											textures: [
+												"0001.png",
+												"0002.png",
+												"0003.png",
+												"0004.png",
+												"0005.png",
+												"0006.png",
+												"0007.png",
+												"0008.png",
+												"0009.png",
+												"0010.png",
+												"0011.png",
+												"0012.png",
+												"0013.png",
+												"0014.png",
+												"0015.png",
+												"0016.png",
+												"0017.png",
+												"0018.png",
+												"0019.png",
+												"0020.png",
+												"0021.png",
+												"0022.png",
+												"0023.png",
+												"0024.png",
+												"0025.png",
+												"0026.png",
+												"0027.png",
+												"0028.png",
+												"0029.png",
+												"0030.png",
+											]
+										},
+										{
+											framerate: 120,
+											loop: true,
+											textures: [
+												"0030.png",
+												"0029.png",
+												"0028.png",
+												"0027.png",
+												"0026.png",
+												"0025.png",
+												"0024.png",
+												"0023.png",
+												"0022.png",
+												"0021.png",
+												"0020.png",
+												"0019.png",
+												"0018.png",
+												"0017.png",
+												"0016.png",
+												"0015.png",
+												"0014.png",
+												"0013.png",
+												"0012.png",
+												"0011.png",
+												"0010.png",
+												"0009.png",
+												"0008.png",
+												"0007.png",
+												"0006.png",
+												"0005.png",
+												"0004.png",
+												"0003.png",
+												"0002.png",
+												"0001.png",
+											]
+										}
+									]
+								},
+
+				// Emitter configuration, edit this to change the look
+				// of the emitter
+config = 		{
+					"alpha": {
+						list: [
+							{
+							value: 1.0,
+							time: 0
+							},
+							{
+							value: 1.0,
+							time: 0.4
+							},
+							{
+							value: 0.5,
+							time: 0.5
+							},
+							 {
+								 value: 0.0,
+	 							time: 0.6
+							},
+							{
+								value: 0.0,
+							 time: 1.0
+						 }
+						],
+						 isStepped: false
+					},
+					scale: {
+		             list: [
+		                 {
+		                     value: 0.3,
+		                     time: 0
+		                 },
+		                 {
+		                     value: 1.3,
+		                     time: 1
+		                 }
+		             ],
+		             isStepped: false,
+								 minimumScaleMultiplier: 0.7,
+		         },
+					"color": {
+						"start": "ffffff",
+						"end": "ffffff"
+					},
+					speed: {
+	            list: [
+	                {
+	                    value: 1800,
+											x: 1000,
+	                    time: 0
+	                },
+									{
+	                    value: 500,
+	                    time: 0.05
+	                },
+	                {
+	                    value: 10,
+	                    time: 1
+	                }
+	            ],
+	            isStepped: false
+	        },
+					acceleration: {"x": 0, "y":5000},
+					"startRotation": {
+						"min": 0,
+						"max": 0
+					},
+					"rotationSpeed": {
+						"min": 0,
+						"max": 0
+					},
+					"lifetime": {
+						"min": 1.0,
+						"max": 1.9
+					},
+					"frequency": 0.005,
+					"maxParticles": 400,
+					spawnChance: 1,
+					particlesPerWave: 2,
+					emitterLifetime: 3.0,
+					minimumSpeedMultiplier: 0.1,
+					"pos": {
+						"x": 0,
+						"y": 0
+					},
+					"addAtBack": false,
+					"spawnType": "ring",
+					"spawnCircle": {
+						"x": 0,
+						"y": 0,
+						"r": 1,
+						"minR": 10
+					}
+				};
+
+				var config1 = JSON.parse(JSON.stringify(config));
+				config1.spawnType = "rectangle";
+				config1= {
+					"alpha": {
+						"start": 1.0,
+						"end": 1.0
+					},
+					"scale": {
+						"start": 0.5,
+						"end": 2.0,
+						"minimumScaleMultiplier":0.05
+					},
+					"color": {
+						"start": "ffffff",
+						"end": "ffffff"
+					},
+					"speed": {
+						"start": 400,
+						"end": 1800
+					},
+					"startRotation": {
+						"min": 85,
+						"max": 95
+					},
+					"rotationSpeed": {
+						"min": 10,
+						"max": 100
+					},
+					"lifetime": {
+						"min": 2,
+						"max": 4
+					},
+					"blendMode": "normal",
+					"frequency": 0.1,
+					"emitterLifetime": 5,
+					"maxParticles": 100,
+					"pos": {
+						"x": 0,
+						"y": 0
+					},
+					"addAtBack": false,
+					spawnChance: 0.2,
+					"spawnType": "rect",
+					"spawnRect": {
+						"x": 0,
+						"y": -300,
+						"w": 1920,
+						"h": 2
+					}
+				};
+			// See js/ParticleExample.js for actual setup
+			new ParticleExample(images,  config, config1, "anim"	);
+		</script>
+	</body>
+</html>
