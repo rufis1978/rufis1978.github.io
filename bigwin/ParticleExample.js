@@ -139,7 +139,6 @@
 
 			setInterval(()=>{
 				if(!emitter) return;
-				console.log(emitter);
 				emitter.maxParticles = randomInteger(10,1200);
 				emitter.minimumScaleMultiplier = 0.1 + Math.random()/10.0;
 				emitter.frequency = 0.005 + (Math.random()-0.5)/100.0;
