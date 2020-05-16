@@ -85,8 +85,8 @@
 		loader.load(function()
 		{
 			bg = new PIXI.Sprite(PIXI.Texture.fromImage("images/bg.jpg"));
-			// bg.scale.x = canvas.width;
-			// bg.scale.y = canvas.height;
+			bg.width = canvas.width;
+			bg.height = canvas.height;
 			//bg.tint = 0x000000;
 			stage.addChild(bg);
 			//collect the textures, now that they are all loaded
