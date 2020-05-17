@@ -1,0 +1,232 @@
+
+<!DOCTYPE html>
+<html class="no-js">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>Animated Coins</title>
+		<meta name="description" content="Animated coins">
+		<link rel="stylesheet" href="css/main.css">
+
+		<!-- Required dependencies -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.8.8/pixi.min.js"></script>
+		<script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/pixi-particles-latest@3.2.0/dist/pixi-particles.min.js"></script>
+
+		<!-- Example scaffolding -->
+		<script src="ParticleExample1.js"></script>
+
+	</head>
+	<body>
+		<div id="framerate"></div>
+		<canvas id="stage" width="1920" height="1080"></canvas>
+		<script>
+
+var images = 			["images/star.png"],
+
+				// Emitter configuration, edit this to change the look
+				// of the emitter
+config = 		{
+					"alpha": {
+						list: [
+							{
+							value: 1.0,
+							time: 0
+							},
+							{
+							value: 1.0,
+							time: 0.4
+							},
+							{
+							value: 0.5,
+							time: 0.5
+							},
+							 {
+								 value: 0.0,
+	 							time: 0.6
+							},
+							{
+								value: 0.0,
+							 time: 1.0
+						 }
+						],
+						 isStepped: false
+					},
+					scale: {
+		             list: [
+		                 {
+		                     value: 0.1,
+		                     time: 0
+		                 },
+										 {
+		                     value: 0.1,
+		                     time: 0.4
+		                 },
+		                 {
+		                     value: 0.3,
+		                     time: 1
+		                 }
+		             ],
+		             isStepped: false,
+								 minimumScaleMultiplier: 0.5,
+		         },
+					"color": {
+						"start": "ffffff",
+						"end": "0fffff"
+					},
+					speed: {
+	            list: [
+	                {
+	                    value: 500,
+	                    time: 0
+	                },
+									{
+	                    value: 1,
+	                    time: 0.02
+	                },
+	                {
+	                    value: 1,
+	                    time: 1
+	                }
+	            ],
+	            isStepped: false
+	        },
+					"startRotation": {
+						"min": 0,
+						"max": 360
+					},
+					"rotationSpeed": {
+						"min": 0,
+						"max": 110
+					},
+					"lifetime": {
+						"min": 1.0,
+						"max": 1.9
+					},
+					"frequency": 0.001,
+					"maxParticles": 1700,
+					spawnChance: .3,
+					particlesPerWave: 2,
+					emitterLifetime: 0.0,
+					minimumSpeedMultiplier: 0.1,
+					"pos": {
+						"x": 0,
+						"y": 0
+					},
+					"addAtBack": false,
+					"spawnType": "polygonalChain",
+										"spawnPolygon": [
+											{x: -200, y: 100},
+											{x: -200, y: -100},
+											{x: 200, y: -100},
+											{x: 200, y: 100},
+											{x: -200, y: 100},
+										]				};
+
+var config1 = JSON.parse(JSON.stringify(config));
+				config1= {
+					"alpha": {
+						list: [
+							{
+							value: 1.0,
+							time: 0
+							},
+							{
+							value: 1.0,
+							time: 0.4
+							},
+							{
+							value: 0.7,
+							time: 0.5
+							},
+							 {
+								 value: 0.5,
+	 							time: 0.75
+							},
+							{
+								value: 0.1,
+							 time: 1.0
+						 }
+						],
+						 isStepped: false
+					},
+					scale: {
+		             list: [
+		                 {
+		                     value: 0.50,
+		                     time: 0
+		                 },
+										 {
+		                     value: 0.31,
+		                     time: 0.1
+		                 },
+		                 {
+		                     value: 0.20,
+		                     time: 1
+		                 }
+		             ],
+		             isStepped: false,
+								 minimumScaleMultiplier: 0.2,
+		         },
+					"color": {
+						"start": "ffffff",
+						"end": "5f5fff"
+					},
+					speed: {
+	            list: [
+	                {
+	                    value: 10,
+	                    time: 0
+	                },
+									{
+	                    value: 10,
+	                    time: 0.01
+	                },
+									{
+	                    value: 1,
+	                    time: 0.02
+	                },
+									{
+	                    value: 10,
+	                    time: 0.8
+	                },
+	                {
+	                    value: 100,
+	                    time: 1
+	                }
+	            ],
+	            isStepped: false
+	        },
+					"startRotation": {
+						"min": 0,
+						"max": 360
+					},
+					"rotationSpeed": {
+						"min": 1,
+						"max": 1
+					},
+					"lifetime": {
+						"min": 1.0,
+						"max": 1.94
+					},
+					"blendMode": "normal",
+					"frequency": 0.002,
+					"emitterLifetime": 0,
+					"maxParticles": 200,
+					"pos": {
+						"x": 0,
+						"y": 0
+					},
+					"addAtBack": false,
+					spawnChance: 1.0,
+					"spawnType": "point",
+					// "extraData":
+					// {
+					// 	"path":"sin(x/10)*20"
+					// }
+		};
+			// See js/ParticleExample.js for actual setup
+			new ParticleExample(images,  config, config1, "anim"	);
+		</script>
+	</body>
+</html>
