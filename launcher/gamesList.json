@@ -1229,7 +1229,7 @@
     },
     "291": {
         "title": "Dancing Lanterns",
-        "path": "app/dancingLanterns.34/index.html",
+        "path": "app/dancingLanterns.35/index.html",
         "launch": true,
         "state": "dev",
         "categories": [
@@ -1249,7 +1249,7 @@
     },
     "293": {
         "title": "Luxor Relics",
-        "path": "app/luxorRelics/index.html",
+        "path": "app/luxorRelics.2/index.html",
         "launch": true,
         "state": "dev",
         "categories": [
@@ -1260,7 +1260,7 @@
     },
     "297": {
         "title": "Fruit Cash Hold n' Link",
-        "path": "app/fruitCashHoldnLink/index.html",
+        "path": "app/fruitCashHoldnLink.2/index.html",
         "launch": true,
         "state": "dev",
         "categories": [
@@ -1338,7 +1338,8 @@
         "launch": true,
         "state": "dev",
         "categories": [
-            "Classic Line"
+            "Classic Line",
+            "Prototype"
         ],
         "vendors": ["NETGAME"]
     },
