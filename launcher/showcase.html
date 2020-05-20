@@ -101,13 +101,13 @@ function modeSwitch(text) {
 }
 
 function runGame(key){
-  open("http://rc-js.skg-sandbox.com/launcherDev.html?userId=autoUserId&wshost=ws://linux-dev.servupdate.com:38082&game="+key+"&quality=high","_self");
+  open("http://rc-js.skg-sandbox.com/launcherDev.html?userId=autoUserId&wshost=ws://linux-dev.servupdate.com:38085&game="+key+"&quality=high","_self");
 }
 function runGames(key){
 //        div1.innerHTML = "<h1>Привет!</h1>";
 for (var frames =1; frames<5;frames++){
 var iframe = document.createElement('iframe');
-iframe.src = "http://rc-js.skg-sandbox.com/launcherDev.html?userId=autoUserId&wshost=ws://linux-dev.servupdate.com:38082&game="+key+"&quality=high";
+iframe.src = "http://rc-js.skg-sandbox.com/launcherDev.html?userId=autoUserId&wshost=ws://linux-dev.servupdate.com:38085&game="+key+"&quality=high";
 iframe.height = '100%';
 iframe.width = '100%';
 
@@ -143,7 +143,7 @@ function printTable(text) {
       var url = value.path.substring(0,value.path.length-10);
       elem.setAttribute("src","http://rc-js.skg-sandbox.com/"+url+ "img/low_res/atlases/introScreenBg.jpg");
       elem.setAttribute("alt", value.title);
-      elem.href = "http://rc-js.skg-sandbox.com/launcherDev.html?userId=autoUserId&wshost=ws://linux-dev.servupdate.com:38082&game="+key+'&quality=high';
+      elem.href = "http://rc-js.skg-sandbox.com/launcherDev.html?userId=autoUserId&wshost=ws://linux-dev.servupdate.com:385&game="+key+'&quality=high';
       var d = document.createElement("P");
       var ur = document.createElement("a");
       var link = document.createTextNode(value.title);
