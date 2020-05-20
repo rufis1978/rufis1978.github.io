@@ -2,6 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
     <title>Games</title>
     <link href="favicon.ico" rel="icon" type="image/x-icon">
 </head>
@@ -21,6 +22,8 @@
           align-items: center;
           justify-content: center;
           margin: 5px;
+          height: 100%;
+          width: 100%;
         }
 p {
   display: block;
@@ -48,6 +51,23 @@ p {
       font-size: 12pt;
       display: block;
       }
+
+      .force-mobile {
+    width: 750px;
+    max-width: 750px;
+    height: 1334px;
+    margin: 0 auto;
+    border-style: none;
+    border-color: inherit;
+    border-width: 0px;
+    -webkit-transform: scale(0.5);
+    -webkit-transform-origin: 0 0;
+    display: block;
+}
+.quoter {
+  width: 50%;
+  height: 50%;
+}
   </style>
 
 
@@ -65,17 +85,58 @@ function readTextFile(file, callback) {
     rawFile.send(null);
 }
 
+function modeSwitch(text) {
+  var paramId = getParameterByName('id');
+  var instances = getParameterByName('instances');
+  var res = JSON.parse(text);
+  for (let [key, value] of Object.entries(res)) {
+   if (key===paramId) {
+      console.log('key found', key, 'instances', instances);
+      if (parseInt(instances)===4) return 'multiGameMode';
+      return 'gameMode';
+    }
+  }
+  return 'tableMode';
+}
+
+function runGame(key){
+  open("http://rc-js.skg-sandbox.com/launcherDev.html?userId=autoUserId&wshost=ws://linux-dev.servupdate.com:38082&game="+key+"&quality=high","_self");
+}
+function runGames(key){
+//        div1.innerHTML = "<h1>Привет!</h1>";
+for (var frames =1; frames<5;frames++){
+var iframe = document.createElement('iframe');
+iframe.src = "http://rc-js.skg-sandbox.com/launcherDev.html?userId=autoUserId&wshost=ws://linux-dev.servupdate.com:38082&game="+key+"&quality=high";
+iframe.height = '100%';
+iframe.width = '100%';
+
+
+var div1 = document.createElement("div");
+div1.className = "quoter";
+div1.appendChild(iframe);
+document.body.prepend(div1);
+}
+}
+
+function render(text) {
+var mode = modeSwitch(text);
+  console.log('mode:', modeSwitch(text));
+  if (mode === 'tableMode') printTable(text);
+  if (mode === 'gameMode')  runGame(getParameterByName('id'));
+  if (mode === 'multiGameMode')  runGames(getParameterByName('id'));
+
+}
+
+
 function printTable(text) {
   var res = JSON.parse(text);
   for (let [key, value] of Object.entries(res)) {
     if ((value.categories.indexOf('Prototype')>-1)&&key>100) {
-      console.log(key,value);
+      //console.log(key,value);
       gamesList.push(value);
       var tag = document.createElement("a");
       var text = document.createTextNode(value.title);
-      //tag.setAttribute('href', "http://google.com");
-      //tag.appendChild(text);
-      tag.href = "http://rc-js.skg-sandbox.com/launcherDev.html?userId=autoUserId&wshost=ws://linux-dev.servupdate.com:38082&game="+key+'&quality=high&commonVersion='+Math.floor(Math.random() * 10000);  ;
+      tag.href = "http://rc-js.skg-sandbox.com/launcherDev.html?userId=autoUserId&wshost=ws://linux-dev.servupdate.com:38085&game="+key+'&quality=high&commonVersion='+Math.floor(Math.random() * 10000);  ;
       tag.title = value.title;
       var elem = document.createElement("img");
       var url = value.path.substring(0,value.path.length-10);
@@ -83,18 +144,26 @@ function printTable(text) {
       elem.setAttribute("alt", value.title);
       elem.href = "http://rc-js.skg-sandbox.com/launcherDev.html?userId=autoUserId&wshost=ws://linux-dev.servupdate.com:38082&game="+key+'&quality=high';
       var d = document.createElement("P");
-      var t = document.createTextNode(value.title);
-      t.className = "block";
+      var ur = document.createElement("a");
+      var link = document.createTextNode(value.title);
+      ur.style.color = 'red';
+      ur.className = "block";
+      ur.appendChild(link);
+      ur.href = "javascript:q=(document.location.href);\
+      open('showcase.html?id="+key+"&instances=4');";
+      //void(open('showcase.html?id="+key+"));";
+      ur.title = value.title;
+      // Create anchor element.
+
 
       elem.setAttribute("id",key);
-      elem.appendChild(t);
       tag.appendChild(elem);
       d.appendChild(tag);
-      d.appendChild(t);
+      d.appendChild(ur);
+
       document.body.prepend(d);
 
       document.getElementById(key).onerror = function() {
-    console.log("Inserting alternate");
     document.getElementById(key).src = "https://i.ytimg.com/vi/hbL-P5e3BZ8/hqdefault.jpg";
   }
 
@@ -103,10 +172,18 @@ function printTable(text) {
 
 }
 
-readTextFile("gamesList.json",printTable);
+function getParameterByName(name, url) {
+    if (!url) url = window.location.href;
+    name = name.replace(/[\[\]]/g, '\\$&');
+    var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, ' '));
+}
 
+readTextFile("gamesList.json",render);
+console.log('GAME ID', getParameterByName('id'));
 </script>
-<div id="list">
-</div>
 </body>
 </html>
